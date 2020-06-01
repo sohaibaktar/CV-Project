@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0;
+}
+body{
+    background-color:rgb(178, 178, 248);
+    font-family: 'Crimson Pro', serif;
+}
+.container{
+    max-width:1000px;
+    background: linear-gradient(to left , #33ccff 0%, #ff99cc 100%);
+    margin:0 auto;
+}
+header{
+
+}
+.profile{
+    width: 100px;
+    height: 120px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+   
+}
+.header-bio{
+    float: left;
+    padding:30px;
+}
+.header-contact{
+    float: right;
+    margin: 15px;
+    padding: 15px;
+}
+.header-contact a{
+    text-decoration:none;
+}
+.header-contact a:hover{
+    color:tomato;
+}
+.div-clear{
+    clear: both;
+}
+.hr1{
+    border: 2px solid;
+    color: black;
+}
+/* -----------------
+Personal information
+------------------*/
+
+.content{
+
+}
+.left-side{
+     /*   background-color: tomato;
+       */ width: 30%;
+        float: left;
+        padding:25px;
+}
+.right-side{
+  /*  background-color: turquoise;
+    */width: 60%;
+    float:right;
+    padding:15px;
+}
+.hr2{
+    border:1px solid black;
+    margin: 10px;    
+}
+
+/* -----------------
+Education Details
+------------------*/
+.right-side-1{
+   /*background-color: turquoise;
+   */float:right;
+   width: 28%;
+   padding: 15px;
+}
+.right-side-2{
+   /* background-color: rgb(236, 236, 22);
+  */  float: right;
+    width: 29%;
+    padding: 15px;
+}
+
+/* -----------------
+Work Experience
+------------------*/
+/*Cheak persoal information*/
+h4{
+    color: cadetblue;
+}
